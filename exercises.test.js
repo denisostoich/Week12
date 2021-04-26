@@ -1,11 +1,9 @@
 //Import Functions
-import { expect, test } from "@jest/globals";
-import { describe } from "yargs";
 import * as functions from "./exercises";
 
 //1
 describe('Primer Función - Devolución de Texto', () => {
-    test('El texto ingresado es Primer Funcion', () => {
+    test('El texto ingresado es "Primer Funcion"', () => {
         expect(functions.texto('Primer Funcion')).toEqual('Primer Funcion');
     });
 })
@@ -53,13 +51,13 @@ describe('Séptima Función - Potencia', () => {
 })
 //8
 describe('Octava Función - Anidada', () => {
-    test('El número 8 elevado al cuadrado es 64', () => {
-        expect(functions.anidada(8)).toBe('64');
+    test('La suma de 8 elevado al cuadrado y 3 elevado al cuadrado, es 73', () => {
+        expect(functions.anidada(8,3)).toBe(73);
     });
 })
 //9
 describe('Novena Función - Dígitos', () => {
-    test('La cantidad de dígitos que le faltan a 8640 con respecto a una cantidad total de 9, e 5 ', () => {
-        expect(functions.cerosIzq(8640, 9)).toEqual('5');
+    test('La cantidad de ceros a la izquierda del número 25, es 4', () => {
+        expect(functions.cerosIzq(25, 6)).toEqual('000025');
     });
 })
