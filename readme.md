@@ -1,10 +1,8 @@
-# Readme Weekly Problem 11 - Node & Express
+# Readme Weekly Problem 12 - Unit Test
 
 This is the README file used in the problems of the "Become a QA Automation" course.
 
-09 - Functions & DOM.
-10 - Events && HTTP.
-11 - Node & Express
+12 - Unit Test.
 
 ---
 
